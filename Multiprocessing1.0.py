@@ -15,7 +15,7 @@ import datetime
 #and then it appends urls from r/memes and @beetlepimp's twitter account to an array so discord users could then
 #command the bot to post a random meme/tweet. The origional code had to index r/memes first, then twitter (super inneficient)
 #and had a total runtime of about 3 seconds but using multiprocessing and the same logic, I cut down the runtime by ~65%
-#from 2.90 sec to 1.48. :) 
+#from 2.90 sec to 1.48. :) (ignore all the imports, I was doing a bunch of tests haha)
 
 
 reddit = praw.Reddit(client_id = clientID, client_secret = clientSecret, user_agent = userAgent,check_for_async=False)
